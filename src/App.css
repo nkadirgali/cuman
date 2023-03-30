@@ -1,7 +1,5 @@
 .App {
-  width: 100vw;
   height: 100vh;
-
 }
 body {
   margin: 0;
@@ -11,14 +9,11 @@ body {
   height: 100vh;
   width: 300px;
   background-color: #F1F1F1;
- 
-
 }
 .SidebarList{
   height: auto;
   width: 100%;
   padding: 0;
-
 }
 .Testing{
   height: auto;
@@ -26,22 +21,25 @@ body {
   padding: 0;
 }
 .logo{
-  width: 180px;
-  height: 90px;
+  /*width: 180px;*/
+  /*height: 90px;*/
   text-align: center;
-
+  height: 64px;
+  width: 221px;
+  margin-top: 38px;
 }
 .Sidebar .line{
   color: #B1C900;
   height: 0px;
   borderColor: #B1C900;
   margin: 20px;
-
 }
 
 .SidebarList .path {
+  display: flex;
   width: 100%;
   height: 60px;
+  text-decoration: none;
   list-style-type: none;
   margin: 0;
   flex-direction: row;
@@ -49,6 +47,13 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Trebuchet MS";
+}
+.path .pathGreen{
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  background-color: #004B2B;
+  transform: translateX(-10px);
 }
 .Testing .testall{
   width: 80%;
@@ -91,5 +96,69 @@ body {
 .SidebarList #active{
   background-color: #F1F1F1 ;
   border-radius: 10px;
-  border-left: 15px solid #004B2B;
+  /*border-left: 15px solid #004B2B;*/
+  width: 285px;
+}
+
+.path .activeShadow{
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.testallpage{
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.testallpage .testall{
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: black;
+}
+.testButton{
+  background: #004B2B;
+  width: 107px;
+  height: 47px;
+  mix-blend-mode: normal;
+  border: 1px solid #004B2B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fffdfd;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.reviewButton{
+  background: #FFFFFF;
+  width: 107px;
+  height: 47px;
+  mix-blend-mode: normal;
+  border: 1px solid #004B2B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #004B2B;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 0px;
+  width: 60%;
+}
+.testText{
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-size: 24px;
+  color: #717171;
 }

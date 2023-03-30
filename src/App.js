@@ -23,7 +23,6 @@ function App() {
 
         <Router>
             <Sidebar/>
-
             <Routes>
                 <Route path="/ledpage" element={ledpage}/>
                 <Route path='/ltepage' element={ltepage}/>
