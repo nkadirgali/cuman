@@ -1,0 +1,95 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.Sidebar{
+  height: 100vh;
+  width: 300px;
+  background-color: #F1F1F1;
+ 
+
+}
+.SidebarList{
+  height: auto;
+  width: 100%;
+  padding: 0;
+
+}
+.Testing{
+  height: auto;
+  width: 100%;
+  padding: 0;
+}
+.logo{
+  width: 180px;
+  height: 90px;
+  text-align: center;
+
+}
+.Sidebar .line{
+  color: #B1C900;
+  height: 0px;
+  borderColor: #B1C900;
+  margin: 20px;
+
+}
+
+.SidebarList .path {
+  width: 100%;
+  height: 60px;
+  list-style-type: none;
+  margin: 0;
+  flex-direction: row;
+  color: #004B2B;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS";
+}
+.Testing .testall{
+  width: 80%;
+  height: 40px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: #004B2B;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS";
+  border-radius: 10px;
+  border-color: #004B2B;
+  margin: 20px;
+}
+.Testing .testall:hover{
+  cursor:pointer;
+  background-color: #004B2B;
+  color: #F1F1F1;
+  border-radius: 10px;
+}
+.Testing #active{
+  background-color: #004B2B ;
+  border-radius: 10px;
+  color: #F1F1F1;
+}
+
+.SidebarList .path:hover{
+  cursor:pointer;
+  background-color: #CECDCD;
+  border-radius: 10px;
+}
+.path #title{
+  flex: 100%;
+  text-align: left;
+  margin-left: 30px;
+  text-shadow: darkgray;
+}
+.SidebarList #active{
+  background-color: #F1F1F1 ;
+  border-radius: 10px;
+  border-left: 15px solid #004B2B;
+}
